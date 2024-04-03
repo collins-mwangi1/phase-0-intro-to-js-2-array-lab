@@ -30,11 +30,12 @@ accessing and manipulating this array.
 Near the top of `indexTest.js` you will see the following:
 
 ```js
-beforeEach(function () {
-  cats.length = 0;
+You should never pass a function as an argument.
+Group of answer choices
 
-  cats.push("Milo", "Otis", "Garfield");
-});
+True
+
+False
 ```
 
 What this code does is _reset_ the array to its original contents before each
